@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1f3f5;
+}
+
+/* * : 전체 선택자 */
+/* 가상 엘리먼트 */
+*,
+*:before,
+*:after {
+  /*inherit 부모 요소를 상속받는다  */
+  box-sizing: inherit; 
+}
+/* ::before, :before차이 */
+
+html {
+  box-sizing: border-box;
+}
